@@ -1,0 +1,36 @@
+/* CUSTOM FONTS */
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url("/assets/poppins/Poppins-Regular.otf") format("otf"); }
+@font-face {
+  font-family: 'Poppins Bold';
+  src: url("/assets/poppins/Poppins-Bold.otf") format("otf"); }
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url("/assets/poppins/Poppins-Medium.otf") format("otf"); }
+/* COLORS */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%; }
+
+body {
+  font-family: "Poppins Regular", Arial, sans-serif;
+  font-size: 100%;
+  background-color: #F4F4F4; }
+
+h1 {
+  font-family: "Poppins Bold", sans-serif;
+  font-size: 200%;
+  margin: 0; }
+
+h2 {
+  font-family: "Poppins Medium", sans-serif;
+  font-size: 150%;
+  margin: 0; }
+
+p {
+  margin: 0; }
+
+/*# sourceMappingURL=styles.css.map */
