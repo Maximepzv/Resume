@@ -1,0 +1,22 @@
+.container-fluid {
+  background-color: #FECE46; }
+
+.container {
+  padding: 3%; }
+
+.title {
+  color: #333333;
+  font-weight: bold;
+  font-size: 220%; }
+
+hr {
+  width: 10%;
+  height: 4px;
+  background-color: #333333;
+  border: none;
+  margin-left: auto; }
+
+.brand {
+  cursor: pointer; }
+
+/*# sourceMappingURL=contact.component.css.map */

@@ -1,0 +1,46 @@
+.container-fluid {
+  width: 100%; }
+
+.container {
+  height: 100%;
+  width: 100%; }
+  @media (max-width: 992px) {
+    .container {
+      margin-top: 5%; } }
+
+h2 {
+  color: #333333;
+  font-weight: bold;
+  font-size: 220%; }
+
+.title {
+  font-weight: bold;
+  font-size: 130%; }
+
+.company {
+  font-size: 120%; }
+
+.date {
+  font-size: 110%; }
+
+.description {
+  color: #898EA2;
+  font-size: 120%; }
+
+hr {
+  width: 10%;
+  height: 4px;
+  background-color: #F79B13;
+  border: none;
+  margin-left: initial; }
+
+.exp-block {
+  height: 300px;
+  border-collapse: collapse; }
+
+.active {
+  background-color: #FECE46; }
+  .active .description {
+    color: #333333 !important; }
+
+/*# sourceMappingURL=experiences.component.css.map */
