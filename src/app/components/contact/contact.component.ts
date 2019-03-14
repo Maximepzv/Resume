@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import {library} from '@fortawesome/fontawesome-svg-core';
 
 @Component({
@@ -12,13 +12,19 @@ export class ContactComponent implements OnInit {
   constructor() { }
 
   faLinkedin = faLinkedin;
+  faGithub = faGithub;
 
   ngOnInit() {
     library.add(faLinkedin);
+    library.add(faGithub);
   }
 
   linkedin() {
     window.open('https://linkedin.com/in/maximepzv/', '_blank');
+  }
+
+  github() {
+    window.open('https://github.com/Maximepzv', '_blank');
   }
 
 }
