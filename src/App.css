@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  pointer-events: none;
+  transform: rotate(10deg);
+}
+
+.App-logo g {
+  fill: white;
+}
+
+.App-logo path {
+  stroke: #e5e5e5;
+  stroke-width: 10px;
+}
+
+.Social-logo {
+  height: calc(10px + 7vmin);
+  width: calc(10px + 7vmin);
+  margin: 10px;
+  cursor: pointer;
+}
+
+.Social-logo path {
+  fill: #282C34;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #FFB633;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 5vmin);
+  color: white;
+}
