@@ -1,9 +1,13 @@
 import React from 'react';
 import UnderConstruction from './components/UnderConstruction';
+import Header from './components/Header';
+import Container from '@material-ui/core/Container';
 
 function App() {
   return (
-    <UnderConstruction />
+    <Container maxWidth="xl">
+      <Header />
+    </Container>
   );
 }
 

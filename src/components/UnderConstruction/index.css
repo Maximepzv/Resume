@@ -1,33 +1,33 @@
-.root {
+.construction-root {
     text-align: center;
 }
 
-.logo {
+.construction-logo {
     pointer-events: none;
     transform: rotate(10deg);
 }
 
-.logo g {
+.construction-logo g {
     fill: white;
 }
 
-.logo path {
+.construction-logo path {
     stroke: #e5e5e5;
     stroke-width: 10px;
 }
 
-.social-logo {
+.construction-social-logo {
     height: calc(10px + 7vmin);
     width: calc(10px + 7vmin);
     margin: 10px;
     cursor: pointer;
 }
 
-.social-logo path {
+.construction-social-logo path {
     fill: #282C34;
 }
 
-.header {
+.construction-header {
     background-color: #FFB633;
     min-height: 100vh;
     display: flex;
