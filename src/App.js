@@ -29,7 +29,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Header />
-      <Wave style={{ marginBottom: '-5%' }} />
+      <Wave style={{ marginBottom: '-3%' }} />
       <About />
       <Experience />
       <Footer />
