@@ -1,0 +1,36 @@
+.about-root {
+    background: #fff;
+}
+
+.about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 10% 0;
+}
+
+.about-title {
+    font-weight: bold;
+}
+
+.about-right {
+    max-width: 800px;
+    text-align: justify;
+    line-height: 32px;
+    margin: auto;
+    font-size: large;
+}
+
+.about-left {
+    margin: auto auto 16px auto;
+}
+
+
+@media only screen and (min-width: 1209px) {
+    .about-left {
+        margin-bottom: auto;
+    }
+}
+
+.about-divider {
+    margin-left: 8px;
+}

@@ -1,0 +1,46 @@
+.experience-root {
+    background: #F4F4F4;
+}
+
+.experience-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5% 0;
+    justify-content: center;
+}
+
+.experience-title {
+    font-weight: bold;
+}
+
+.experience-divider {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.MuiStepIcon-text {
+    display: none;
+}
+
+.experience-stepper {
+    background-color: inherit!important;
+    margin: auto;
+}
+
+.experience-stepper-content {
+    line-height: 24px;
+    font-size: large;
+}
+
+.experience-step-subtitle {
+    color:#FFB633;
+    font-size: medium;
+}
+
+.experience-step-title {
+    font-weight: 500!important;
+    font-size: x-large!important;
+    color: #282C34!important;
+}

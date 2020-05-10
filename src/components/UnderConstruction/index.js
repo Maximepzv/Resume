@@ -1,9 +1,9 @@
 import React from 'react';
 import './index.css';
 import { ReactComponent as Logo } from '../../assets/images/logo.svg';
-import { ReactComponent as LinkedInLogo } from './linkedin.svg';
-import { ReactComponent as GithubLogo } from './github.svg';
-import { ReactComponent as EmailLogo } from './email.svg';
+import { ReactComponent as LinkedInLogo } from '../../assets/images/linkedin.svg';
+import { ReactComponent as GithubLogo } from '../../assets/images/github.svg';
+import { ReactComponent as EmailLogo } from '../../assets/images/email.svg';
 
 export default () => {
   return (

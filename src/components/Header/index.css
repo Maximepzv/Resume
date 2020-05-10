@@ -1,48 +1,43 @@
 .header-root {
+    background: #F4F4F4;
+}
+
+.header-wrapper {
     display: flex;
     flex-wrap: wrap-reverse;
     padding-top: 10%;
-}
-
-h1 {
-    color: #FFB633;
-}
-
-h2 {
-   color: #282C34;
+    padding-bottom: 5%;
 }
 
 .header-right {
     margin: auto;
-    height: 400px;
-    width: 400px;
 }
 
 .header-left {
     margin: auto;
     font-size: x-large;
-    min-width: 400px;
 }
 
-.header-logo g {
+@media only screen and (max-width: 330px) {
+    .header-left {
+        text-align: center
+    }
+}
+
+.hearder-button {
+    margin: 100px;
+}
+
+.logo {
+    height: auto;
+    width: 100%;
+}
+
+#svg_logo {
     fill: #FFB633;
 }
 
-.header-logo path {
-    stroke-width: 10px;
-}
-
-.header-shape {
-    position: absolute;
-}
-
-.header-shape g path {
+#svg_shape {
     fill: #282C34;
 }
-
-.header-logo {
-    transform: rotate(10deg);
-    position: absolute;
-}
-
 

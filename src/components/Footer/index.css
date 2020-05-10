@@ -1,0 +1,27 @@
+.footer-root {
+    background-color: #282C34;
+}
+
+.footer-wrapper {
+    padding: 3% 0;
+}
+
+.footer-title {
+    color: #FFB633;
+}
+
+.footer-social-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer-social-button {
+    margin: 0 1%!important;
+}
+
+.footer-social-svg {
+    height: 40px;
+    width: 40px;
+    fill: #fff;
+}
