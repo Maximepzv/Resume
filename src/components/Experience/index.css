@@ -6,11 +6,16 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 5% 0;
+    padding: 5% 0 0 0;
     justify-content: center;
 }
 
 .experience-title {
+    font-weight: bold;
+}
+
+.experience-title2 {
+    margin-top: 20px!important;
     font-weight: bold;
 }
 

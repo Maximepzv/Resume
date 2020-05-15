@@ -30,7 +30,7 @@ export default () => {
               </StepLabel>
               <StepContent>
                 <Typography className="experience-stepper-content" component="p" variant="bod1">
-                  <a href="https://www.epitech.eu" target="_blank" rel="noopener" className="experience-link-epitech">Epitech IT</a>, formerly European Institute of Information Technology is a private institution of higher education in general computer science.<br/>
+                  <a href="https://www.epitech.eu" target="_blank" rel="noopener noreferrer" className="experience-link-epitech">Epitech IT</a>, formerly European Institute of Information Technology is a private institution of higher education in general computer science.<br/>
                   It is a five-year course of study leading to a French state diploma as an expert in information technology.
                   The particularity of this training is that it is based on 90% practical programming courses.
                   The student is led to carry out projects throughout the year. Alone or in groups and on increasingly complex projects.
@@ -46,13 +46,13 @@ export default () => {
               </StepLabel>
               <StepContent>
                 <Typography className="experience-stepper-content" component="p" variant="bod1">
-                  <a href="https://www.dcu.ie/engineering_and_computing/index.shtml" target="_blank" rel="noopener" className="experience-link-dcu">Dublin City University</a> (abbreviated as DCU) is a university based on the Northside of Dublin, Ireland.<br/>
+                  <a href="https://www.dcu.ie/engineering_and_computing/index.shtml" target="_blank" rel="noopener noreferrer" className="experience-link-dcu">Dublin City University</a> (abbreviated as DCU) is a university based on the Northside of Dublin, Ireland.<br/>
                   I was privileged to go to this university for my fourth year of graduate studies. As a study abroad I was able to attend to computing and management courses in the faculty of Engineering and Computing of DCU, such as Cloud Computing, Project Management, Testing, or Concurrent and Distributed Programming.
                 </Typography>
               </StepContent>
             </Step>
           </Stepper>
-          <Typography color="secondary" components="h4" variant="h2" className="experience-title">
+          <Typography color="secondary" components="h4" variant="h2" className="experience-title2">
             <Box textAlign="center" fontWeight="fontWeightMedium" m={1}>Experiences</Box>
             <div className="experience-divider">
               <Divider />

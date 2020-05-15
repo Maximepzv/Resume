@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import {makeStyles, ThemeProvider} from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
