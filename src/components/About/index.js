@@ -40,7 +40,8 @@ export default () => {
           <div className="about-right">
             <Typography color="secondary" component="p" variant="bod1">
               Student from Epitech France, I'm currently in Dublin City University studying computer science as an Erasmus Student.
-              For more than three years, I have been carrying out projects for school and for internships. I also work as a freelancer on my free time.
+              For more than three years, I have been carrying out projects for school and for internships. I also work as a freelancer on my free time
+              and I'm currently on a mission for <a href="https://www.welcometothejungle.com/fr/companies/teester" target="_blank" rel="noopener" className="about-link-teester">Teester</a>.
             </Typography>
           </div>
         </div>

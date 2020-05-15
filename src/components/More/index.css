@@ -1,0 +1,23 @@
+.more-root {
+    background: #FFB633;
+}
+
+.more-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    padding: 20px 0 20px 0;
+}
+
+.more-title {
+    color: #fff;
+}
+
+.more-divider {
+    margin-left: 8px;
+}
+
+.more-content {
+    text-align: center;
+    padding-bottom: 20px;
+}

@@ -20,6 +20,10 @@
     margin-bottom: 16px;
 }
 
+.MuiStepper-root {
+    padding: 12px!important;
+}
+
 .MuiStepIcon-text {
     display: none;
 }
@@ -32,6 +36,14 @@
 .experience-stepper-content {
     line-height: 24px;
     font-size: large;
+    max-width: 800px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 425px) {
+    .experience-stepper-content {
+        text-align: justify;
+    }
 }
 
 .experience-step-subtitle {
@@ -43,4 +55,16 @@
     font-weight: 500!important;
     font-size: x-large!important;
     color: #282C34!important;
+}
+
+.experience-link-epitech {
+    font-weight: bold;
+    text-decoration: none;
+    color: #0072bc
+}
+
+.experience-link-dcu {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(79,134,142);
 }
