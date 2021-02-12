@@ -1,12 +1,13 @@
 import React from 'react';
-import Header from './components/Header';
-import About from './components/About';
-import More from './components/More';
-import Footer from './components/Footer';
-import Experience from './components/Experience';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 import { ThemeProvider, createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { ReactComponent as Wave } from './assets/images/wave.svg';
+import Home from './routes/Home.js';
+import Game from './routes/Game.js';
 
 const theme = responsiveFontSizes(createMuiTheme({
   palette: {
@@ -29,12 +30,16 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Header />
-      <Wave style={{ marginBottom: '-3%' }} />
-      <About />
-      <Experience />
-      <More />
-      <Footer />
+      <Router>
+        <Switch>
+          <Route path="/game">
+            <Game />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
     </ThemeProvider>
   );
 }
