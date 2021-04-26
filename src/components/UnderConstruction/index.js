@@ -7,19 +7,21 @@ import { ReactComponent as EmailLogo } from '../../assets/images/email.svg';
 
 const UnderConstruction = () => {
   return (
-    <div className="construction-root">
-      <header className="construction-header">
+    <div>
+      <span className="construction-background" />
+      <div className="construction-root">
         <Logo fill="white" className="construction-logo" />
-        <p>
+        <p className="construction-title">
           Site under construction
         </p>
-        <div>
-          <a href="https://github.com/Maximepzv" target="_blank" rel="noopener noreferrer"><GithubLogo className="construction-social-logo"/></a>
-          <a href="https://www.linkedin.com/in/maximepzv/" target="_blank" rel="noopener noreferrer"><LinkedInLogo className="construction-social-logo"/></a>
-          <a href="mailto:maxime.pouezevara@epitech.eu"><EmailLogo className="construction-social-logo"/></a>
+        <div className="construction-links">
+          <a href="https://github.com/Maximepzv" target="_blank" rel="noopener noreferrer"><GithubLogo className="construction-social-logo" /></a>
+          <a href="https://www.linkedin.com/in/maximepzv/" target="_blank" rel="noopener noreferrer"><LinkedInLogo className="construction-social-logo" /></a>
+          <a href="mailto:maxime.pouezevara@epitech.eu"><EmailLogo className="construction-social-logo" /></a>
         </div>
-      </header>
+      </div>
     </div>
+
   );
 };
 
