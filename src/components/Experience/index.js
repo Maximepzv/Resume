@@ -9,7 +9,7 @@ import Step from "@material-ui/core/Step";
 import StepLabel from "@material-ui/core/StepLabel";
 import StepContent from "@material-ui/core/StepContent";
 
-export default () => {
+const Experience = () => {
   return (
     <div className="experience-root">
       <Container maxWidth="xl">
@@ -111,3 +111,5 @@ export default () => {
     </div>
   );
 };
+
+export default Experience;

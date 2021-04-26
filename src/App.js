@@ -7,7 +7,7 @@ import {
 import { ThemeProvider, createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Home from './routes/Home.js';
-import Game from './routes/Game.js';
+import UnderConstruction from './components/UnderConstruction';
 
 const theme = responsiveFontSizes(createMuiTheme({
   palette: {
@@ -32,12 +32,13 @@ function App() {
       <CssBaseline />
       <Router>
         <Switch>
-          <Route path="/game">
-            <Game />
-          </Route>
-          <Route path="/">
+        <Route path="/old">
             <Home />
           </Route>
+          <Route path="/">
+            <UnderConstruction />
+          </Route>
+          
         </Switch>
       </Router>
     </ThemeProvider>

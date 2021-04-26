@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import Experience from '../components/Experience';
 import { ReactComponent as Wave } from '../assets/images/wave.svg';
 
-export default () => {
+const Home = () => {
     return (
         <div>
             <Header />
@@ -18,3 +18,5 @@ export default () => {
         </div>
     );
 };
+
+export default Home;

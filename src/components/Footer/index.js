@@ -8,7 +8,7 @@ import { ReactComponent as Malt } from '../../assets/images/malt.svg';
 import { ReactComponent as GithubLogo } from "../../assets/images/github.svg";
 import { ReactComponent as EmailLogo } from "../../assets/images/email.svg";
 
-export default () => {
+const Footer = () => {
 
   return (
     <div className="footer-root">
@@ -29,3 +29,5 @@ export default () => {
     </div>
   );
 };
+
+export default Footer;

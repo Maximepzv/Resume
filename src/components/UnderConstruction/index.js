@@ -5,7 +5,7 @@ import { ReactComponent as LinkedInLogo } from '../../assets/images/linkedin.svg
 import { ReactComponent as GithubLogo } from '../../assets/images/github.svg';
 import { ReactComponent as EmailLogo } from '../../assets/images/email.svg';
 
-export default () => {
+const UnderConstruction = () => {
   return (
     <div className="construction-root">
       <header className="construction-header">
@@ -22,3 +22,5 @@ export default () => {
     </div>
   );
 };
+
+export default UnderConstruction;

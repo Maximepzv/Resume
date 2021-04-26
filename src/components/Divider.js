@@ -12,10 +12,12 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default () => {
+const MyDivider = () => {
   const classes = useStyles();
 
   return (
       <Divider variant="middle" classes={{ middle: classes.divider }} />
   );
 };
+
+export default MyDivider;

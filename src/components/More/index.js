@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default () => {
+const More = () => {
   const classes = useStyles();
 
   return (
@@ -58,3 +58,5 @@ export default () => {
 
   );
 };
+
+export default More;

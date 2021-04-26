@@ -22,7 +22,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default () => {
+const About = () => {
   const classes = useStyles();
 
   return (
@@ -49,3 +49,5 @@ export default () => {
     </div>
   );
 };
+
+export default About;
