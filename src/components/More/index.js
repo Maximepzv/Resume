@@ -32,6 +32,16 @@ const useStyles = makeStyles(theme => ({
   wave: {
     backgroundColor: '#F4F4F4',
     marginBottom: '-50px',
+  },
+  waveRoot: {
+    marginTop: '-100px',
+    [theme.breakpoints.down('sm')]: {
+      marginTop: '-50px',
+    },
+    [theme.breakpoints.down('xs')]: {
+      marginTop: 0,
+    },
+    zIndex: 0,
   }
 }));
 
@@ -39,7 +49,7 @@ const More = () => {
   const classes = useStyles();
 
   return (
-    <div>
+    <div className={classes.waveRoot}>
       <svg className={classes.wave} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFB633" fill-opacity="1" d="M0,256L120,250.7C240,245,480,235,720,192C960,149,1200,75,1320,37.3L1440,0L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
       <div className="more-root">
         <Container maxWidth="lg">

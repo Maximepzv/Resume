@@ -36,6 +36,7 @@
 .experience-stepper {
     background-color: inherit!important;
     margin: auto;
+    z-index: 1;
 }
 
 .experience-stepper-content {
