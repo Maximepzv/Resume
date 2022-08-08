@@ -42,7 +42,7 @@ const More = () => {
     <div>
       <svg className={classes.wave} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFB633" fill-opacity="1" d="M0,256L120,250.7C240,245,480,235,720,192C960,149,1200,75,1320,37.3L1440,0L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
       <div className="more-root">
-        <Container maxWidth="xl">
+        <Container maxWidth="lg">
           <div className="more-wrapper">
             <Typography components="h3" variant="h2" className="more-title">
               <Box textAlign="center" fontWeight="fontWeightMedium" m={1}>More incoming...</Box>

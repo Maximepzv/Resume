@@ -8,11 +8,11 @@ const Header = () => {
 
   return (
       <header className="header-root">
-        <Container maxWidth="xl">
+        <Container maxWidth="lg">
           <div className="header-wrapper">
             <div className="header-left">
               <Typography variant="h1" component="h1" color="primary">Hi! I'm Maxime</Typography>
-              <Typography variant="h2" component="h2" color="secondary">Developer Fullstack <br/>Freelance</Typography>
+              <Typography variant="h2" component="h2" color="secondary">Developer Fullstack</Typography>
             </div>
             <div className="header-right">
               <Blob className="logo" />

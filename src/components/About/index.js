@@ -27,7 +27,7 @@ const About = () => {
 
   return (
     <div className="about-root">
-      <Container maxWidth="xl">
+      <Container maxWidth="lg">
         <div className="about-wrapper">
           <div className="about-left">
             <Typography color="secondary" components="h3" variant="h2" className="about-title">
@@ -39,9 +39,9 @@ const About = () => {
           </div>
           <div className="about-right">
             <Typography color="secondary" component="p" variant="bod1">
-              Student from Epitech France, I'm currently in Dublin City University studying computer science as an Erasmus Student.
-              For more than three years, I have been carrying out projects for school and for internships. I also work as a freelancer on my free time
-              and I'm currently on a mission for <a href="https://www.welcometothejungle.com/fr/companies/teester" target="_blank" rel="noopener noreferrer" className="about-link-teester">Teester</a>.
+            Young developer from Nantes. Former student of Epitech and Duclin City University in Ireland.
+            I'm growing professionally on various design and development projects. With an appetite for web technologies.
+            I'm currently working as a full time lead developer at <a href="https://skeepers.io/fr/" target="_blank" rel="noopener noreferrer" className="about-link-skeepers">Skeepers</a> in the video and web domain, mainly in Javascript, NodeJs and React.
             </Typography>
           </div>
         </div>

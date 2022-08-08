@@ -12,7 +12,7 @@ const Footer = () => {
 
   return (
     <div className="footer-root">
-      <Container maxWidth="xl">
+      <Container maxWidth="lg">
         <div className="footer-wrapper">
           <Box textAlign="center" fontWeight="fontWeightMedium" m={1} style={{ color: '#fff' }}>Made with <span role="img" aria-label="heart">❤</span> and React by</Box>
           <Typography color="primary" components="p" variant="h4" className="footer-title">

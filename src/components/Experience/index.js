@@ -12,7 +12,7 @@ import StepContent from "@material-ui/core/StepContent";
 const Experience = () => {
   return (
     <div className="experience-root">
-      <Container maxWidth="xl">
+      <Container maxWidth="lg">
         <div className="experience-wrapper">
           <Typography color="secondary" components="h4" variant="h2" className="experience-title">
             <Box textAlign="center" fontWeight="fontWeightMedium" m={1}>Education</Box>
@@ -30,7 +30,7 @@ const Experience = () => {
               </StepLabel>
               <StepContent>
                 <Typography className="experience-stepper-content" component="p" variant="bod1">
-                  <a href="https://www.epitech.eu" target="_blank" rel="noopener noreferrer" className="experience-link-epitech">Epitech IT</a>, formerly European Institute of Information Technology is a private institution of higher education in general computer science.<br/>
+                  <a href="https://www.epitech.eu" target="_blank" rel="noopener noreferrer" className="experience-link-epitech">Epitech IT</a>, formerly European Institute of Information Technology is a private institution of higher education in general computer science.<br />
                   It is a five-year course of study leading to a French state diploma as an expert in information technology.
                   The particularity of this training is that it is based on 90% practical programming courses.
                   The student is led to carry out projects throughout the year. Alone or in groups and on increasingly complex projects.
@@ -46,7 +46,7 @@ const Experience = () => {
               </StepLabel>
               <StepContent>
                 <Typography className="experience-stepper-content" component="p" variant="bod1">
-                  <a href="https://www.dcu.ie/engineering_and_computing/index.shtml" target="_blank" rel="noopener noreferrer" className="experience-link-dcu">Dublin City University</a> (abbreviated as DCU) is a university based on the Northside of Dublin, Ireland.<br/>
+                  <a href="https://www.dcu.ie/engineering_and_computing/index.shtml" target="_blank" rel="noopener noreferrer" className="experience-link-dcu">Dublin City University</a> (abbreviated as DCU) is a university based on the Northside of Dublin, Ireland.<br />
                   I was privileged to go to this university for my fourth year of graduate studies. As a study abroad I was able to attend to computing and management courses in the faculty of Engineering and Computing of DCU, such as Cloud Computing, Project Management, Testing, or Concurrent and Distributed Programming.
                 </Typography>
               </StepContent>
@@ -61,10 +61,23 @@ const Experience = () => {
           <Stepper expanded orientation="vertical" className="experience-stepper">
             <Step expanded active>
               <StepLabel
-                optional={"Freelancing, Feb. 2019 - Nowaday"}
+                optional={"Permanent, Jan. 2022 - Nowaday"}
                 className="experience-step-subtitle"
               >
-                <Typography variant="body2" component="p" className="experience-step-title">Software Developer at Teester</Typography>
+                <Typography variant="body2" component="p" className="experience-step-title">Lead Software Developer at Skeepers</Typography>
+              </StepLabel>
+              <StepContent>
+                <Typography className="experience-stepper-content" component="p" variant="subtitle1">
+                  Design, conception and development of web editing and automated video processing software.
+                </Typography>
+              </StepContent>
+            </Step>
+            <Step expanded>
+              <StepLabel
+                optional={"Freelance & permanent, Feb. 2019 - Dec. 2021"}
+                className="experience-step-subtitle"
+              >
+                <Typography variant="body2" component="p" className="experience-step-title">Software Developer at Teester/Skeepers</Typography>
               </StepLabel>
               <StepContent>
                 {/*<Typography className="experience-stepper-content" component="p" variant="subtitle1">

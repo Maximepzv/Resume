@@ -32,10 +32,10 @@ function App() {
       <CssBaseline />
       <Router>
         <Switch>
-        <Route path="/old">
+        <Route path="/">
             <Home />
           </Route>
-          <Route path="/">
+          <Route path="/uc">
             <UnderConstruction />
           </Route>
           
